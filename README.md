@@ -17,7 +17,7 @@ Claude Code 입력창 바로 위에 Claude 사용량을 한 줄로 보여 주는
 Claude Code 세션의 프롬프트에서:
 
 ```
-/plugin install usage-meter --marketplace OWNER/claude-usage-meter
+/plugin install usage-meter --marketplace jjangci46-cmd/claude-usage-meter
 ```
 
 `Add marketplace?`에 `y`, 설치 범위는 user(기본값)를 고르면 이후 모든 세션에서 동작합니다.
@@ -25,9 +25,7 @@ Claude Code 세션의 프롬프트에서:
 셸에서:
 
 ```bash
-claude plugin install usage-meter --marketplace OWNER/claude-usage-meter
+claude plugin install usage-meter --marketplace jjangci46-cmd/claude-usage-meter
 ```
 
-데스크톱 앱(`/plugin`이 안 되는 곳): 프롬프트 옆 + → Plugins → Add marketplace에 `OWNER/claude-usage-meter` → Add plugin.
-
-`OWNER`는 이 저장소를 올린 GitHub 계정 이름으로 바꿔 주세요.
+데스크톱 앱(`/plugin`이 안 되는 곳): 프롬프트 옆 + → Plugins → Add marketplace에 `jjangci46-cmd/claude-usage-meter` → Add plugin.
